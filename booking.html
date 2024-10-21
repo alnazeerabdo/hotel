@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الحجوزات - سلسلة الفنادق الفاخرة</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+        nav a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+        .form-container {
+            max-width: 600px;
+            margin: auto;
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- هيدر الصفحة -->
+    <header>
+        <h1>سلسلة الفنادق الفاخرة</h1>
+        <nav>
+            <a href="index.html">الصفحة الرئيسية</a>
+            <a href="about.html">حول السلسلة</a>
+            <a href="rooms.html">الغرف والخدمات</a>
+            <a href="booking.html">الحجوزات</a>
+            <a href="locations.html">المواقع</a>
+            <a href="contact.html">اتصل بنا</a>
+        </nav>
+    </header>
+
+    <!-- محتوى الحجز -->
+    <section>
+        <h2>احجز غرفتك الآن</h2>
+        <div class="form-container">
+            <form action="#">
+                <label for="checkin">تاريخ الوصول:</label>
+                <input type="date" id="checkin" name="checkin">
+                
+                <label for="checkout">تاريخ المغادرة:</label>
+                <input type="date" id="checkout" name="checkout">
+                
+                <label for="guests">عدد الضيوف:</label>
+                <select id="guests" name="guests">
+                    <option value="1">1 ضيف</option>
+                    <option value="2">2 ضيوف</option>
+                    <option value="3">3 ضيوف</option>
+                    <option value="4">4 ضيوف</option>
+                </select>
+                
+                <label for="room-type">نوع الغرفة:</label>
+                <select id="room-type" name="room-type">
+                    <option value="standard">غرفة قياسية</option>
+                    <option value="deluxe">غرفة ديلوكس</option>
+                    <option value="luxury">الغرفة الفاخرة</option>
+                </select>
+                
+                <button type="submit">تأكيد الحجز</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer>
+        <p>&copy; 2024 سلسلة الفنادق الفاخرة - جميع الحقوق محفوظة</p>
+    </footer>
+
+</body>
+</html>

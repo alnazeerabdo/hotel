@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الغرف والخدمات - سلسلة الفنادق الفاخرة</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+        nav a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+        .rooms {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px;
+        }
+        .room-item {
+            text-align: center;
+            width: 30%;
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .room-item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- هيدر الصفحة -->
+    <header>
+        <h1>سلسلة الفنادق الفاخرة</h1>
+        <nav>
+            <a href="index.html">الصفحة الرئيسية</a>
+            <a href="about.html">حول السلسلة</a>
+            <a href="rooms.html">الغرف والخدمات</a>
+            <a href="booking.html">الحجوزات</a>
+            <a href="locations.html">المواقع</a>
+            <a href="contact.html">اتصل بنا</a>
+        </nav>
+    </header>
+
+    <!-- محتوى الغرف -->
+    <section class="rooms">
+        <div class="room-item">
+            <img src="luxury-room.jpg" alt="غرفة فاخرة">
+            <h3>الغرفة الفاخرة</h3>
+            <p>تجربة رفاهية لا مثيل لها مع إطلالات ساحرة وخدمات خاصة.</p>
+            <p>السعر: 1000 ريال سعودي / الليلة</p>
+        </div>
+        <div class="room-item">
+            <img src="deluxe-room.jpg" alt="غرفة ديلوكس">
+            <h3>غرفة ديلوكس</h3>
+            <p>غرفة واسعة بتصميم أنيق تجمع بين الراحة والفخامة.</p>
+            <p>السعر: 800 ريال سعودي / الليلة</p>
+        </div>
+        <div class="room-item">
+            <img src="standard-room.jpg" alt="غرفة قياسية">
+            <h3>غرفة قياسية</h3>
+            <p>غرفة مريحة ومجهزة بأحدث وسائل الراحة.</p>
+            <p>السعر: 500 ريال سعودي / الليلة</p>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer>
+        <p>&copy; 2024 سلسلة الفنادق الفاخرة - جميع الحقوق محفوظة</p>
+    </footer>
+
+</body>
+</html>

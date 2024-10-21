@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المواقع - سلسلة الفنادق الفاخرة</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+        nav a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+        .locations {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .location-item {
+            width: 30%;
+            background-color: #f4f4f4;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            text-align: left;
+        }
+        .location-item h3 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- هيدر الصفحة -->
+    <header>
+        <h1>سلسلة الفنادق الفاخرة</h1>
+        <nav>
+            <a href="index.html">الصفحة الرئيسية</a>
+            <a href="about.html">حول السلسلة</a>
+            <a href="rooms.html">الغرف والخدمات</a>
+            <a href="booking.html">الحجوزات</a>
+            <a href="locations.html">المواقع</a>
+            <a href="contact.html">اتصل بنا</a>
+        </nav>
+    </header>
+
+    <!-- محتوى المواقع -->
+    <section>
+        <h2>فروعنا حول العالم</h2>
+        <div class="locations">
+            <div class="location-item">
+                <h3>فندق الرياض</h3>
+                <p><strong>العنوان:</strong> شارع الملك فهد، الرياض، المملكة العربية السعودية</p>
+                <p><strong>الهاتف:</strong> +966 123456789</p>
+            </div>
+            <div class="location-item">
+                <h3>فندق دبي</h3>
+                <p><strong>العنوان:</strong> شارع الشيخ زايد، دبي، الإمارات العربية المتحدة</p>
+                <p><strong>الهاتف:</strong> +971 987654321</p>
+            </div>
+            <div class="location-item">
+                <h3>فندق القاهرة</h3>
+                <p><strong>العنوان:</strong> شارع النيل، القاهرة، جمهورية مصر العربية</p>
+                <p><strong>الهاتف:</strong> +20 1122334455</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer>
+        <p>&copy; 2024 سلسلة الفنادق الفاخرة - جميع الحقوق محفوظة</p>
+    </footer>
+
+</body>
+</html>
